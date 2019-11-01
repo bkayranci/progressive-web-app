@@ -67,6 +67,7 @@ html {
 .back-button {
   color: white;
   font-weight: bold;
+  border: none;
 }
 
 .card {
