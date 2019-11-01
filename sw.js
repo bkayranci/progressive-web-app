@@ -7,7 +7,12 @@ var cachePageFiles = [
   "/src/js/app.js",
   "/src/css/app.css",
   "/src/images/pwa.png",
-  "src/images/not-found.jpg",
+  "/src/images/pwa.jpg",
+  "/src/images/not-found.jpg",
+  "/src/images/icons/app-icon-144x144.png",
+  "/src/images/icons/app-icon-256x256.png",
+  "/src/images/icons/app-icon-96x96.png",
+  "/src/images/icons/app-icon-512x512.png",
   "https://fonts.googleapis.com/css?family=Raleway:400,700",
   "/notFound.html"
 ];
