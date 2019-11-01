@@ -4,7 +4,8 @@
   "description": "A simple example PWA with an app-manifest and precaching",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -c-1 -p 8083"
+    "start": "http-server -c-1 -p 8083",
+    "build": "find public/ -type f -print0 | xargs -0 sed -i 's|/src/|/progressive-web-app/src/|g'"
   },
   "keywords": [
     "pwa"
