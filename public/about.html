@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>An Example PWA</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="/src/css/app.css">
+  <link rel="manifest" href="/manifest.json">
+</head>
+<body>
+<header class="main-header">
+<input class="back-button" type="button" value="BACK" onclick="history.back()"/> 
+<div class="about-header">
+  <h1>HEADER</h1>
+</div>
+</header>
+<article class="card" id="pwa">
+  <div class="card__image">
+    <img src="/src/images/pwa.png" alt="pwa">
+  </div>
+  <div class="card__content">
+    <h2>What is a service worker</h2>
+  </div>
+  <div class="card__details">
+    A service worker is a script that your browser runs in the background, separate from a web page, opening the door to features that don't need a web page or user interaction. Today, they already include features like push notifications and background sync. In the future, service workers might support other things like periodic sync or geofencing. The core feature discussed in this tutorial is the ability to intercept and handle network requests, including programmatically managing a cache of responses.
+
+    The reason this is such an exciting API is that it allows you to support offline experiences, giving developers complete control over the experience.
+
+    Before service worker, there was one other API that gave users an offline experience on the web called AppCache. There are a number of issues with the AppCache API that service workers were designed to avoid.
+  </div>
+</article>
+<script src="/src/js/about.js"></script>
+</body>
+</html>
